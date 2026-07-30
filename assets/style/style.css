@@ -1,0 +1,31 @@
+/* ==================== Definições das Fontes ==================== */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ==================== Definições das Cores ==================== */
+:root {
+    --main-color: #FEF7F2;
+    --secondry-color: #DDC7BB;
+    --button-color: #2B1B12;
+    --title-color: #2B1B12;
+    --text-color: #4F3527;
+    --white-color: #FFFFFF
+}
+
+/* ==================== Reseta do Website ==================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==================== Estilização Padrão ==================== */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: var(--text-color);
+}
