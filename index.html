@@ -39,11 +39,12 @@
 
 <body>
 
+    <!-- ==================== Cabeçalho ==================== -->
     <header id="header" class="header">
         <img src="./assets/img/logo.png" alt="Dwello Logo">
 
-        <nav>
-            <ul>
+        <nav id="navigation" class="navigation">
+            <ul id="nav-list" class="nav-list">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#service">Service</a></li>
                 <li><a href="#agents">Agents</a></li>
@@ -55,7 +56,7 @@
 
             <div id="icons-group" class="icons-group">
                 <i class="ri-search-line"></i>
-                <i class="ri-user-fill"></i>
+                <i class="ri-user-line"></i>
             </div>
 
             <div id="btn-group" class="btn-group">
@@ -65,8 +66,10 @@
         </div>
     </header>
 
+    <!-- ==================== Conteúdo Principal ==================== -->
     <main>
 
+        <!-- ==================== Seção Hero ==================== -->
         <section id="hero-section" class="hero-section">
 
             <div id="main-content" class="main-content">
@@ -77,13 +80,15 @@
                         properties meticulously tailored to your
                         unique dream home vision
                     </p>
+
+                    <button id="btn" class="btn">Sign Up</button>
                 </div>
                 <div id="hero-img" class="hero-img">
                     <img src="./assets/img/hero.png" alt="Big Whit House">
                 </div>
             </div>
 
-            <div>
+            <div id="hero-search" class="hero-search">
 
                 <div>
                     <p>Location</p>
@@ -107,6 +112,7 @@
 
         </section>
 
+        <!-- ==================== Seção Jornada ==================== -->
         <section id="journey-section" class="journey-section">
 
             <div id="journey-img" class="journey-img">
@@ -116,7 +122,7 @@
             <div id="journey-content" class="journey-content">
 
                 <div id="journey-description" class="journey-description">
-                    <h2>We Help You To Find Your Dream Home</h2>
+                    <h2>We Help You To Find <br/> Your Dream Home</h2>
                     <p>
                         From cozy cottages to luxurious estates, our
                         dedicated team guides you through every step of the
@@ -144,9 +150,11 @@
 
         </section>
 
+        <!-- ==================== Seção Por Que Escolher Nós ==================== -->
+
         <section id="why-section" class="why-section">
 
-            <div>
+            <div id="why-content" class="why-content">
                 <h2>Why Choose Us</h2>
                 <p>
                     Elevating Your Home Buying Experience with Expertise, Integrity,
@@ -154,7 +162,7 @@
                 </p>
             </div>
 
-            <div id="cards" class="cards">
+            <div id="why-cards" class="why-cards">
                 <div id="card" class="card">
                     <i class="ri-map-pin-5-fill"></i>
 
@@ -202,7 +210,8 @@
             </div>
 
         </section>
-
+        
+        <!-- ==================== Seção Residences ==================== -->
         <section id="residences-section" class="residences-section">
 
             <div id="residences-content" class="residences-content">
@@ -216,10 +225,10 @@
                         <img src="./assets/img/Group 1.png" alt="First House">
                     </div>
 
-                    <div>
+                    <div id="residence-details" class="residence-details">
                         <h4><i class="ri-map-pin-2-fill"></i> San Francisco, California</h4>
 
-                        <div>
+                        <div id="residence-info" class="residence-info">
                             <p>
                                 <i class="ri-hotel-bed-line"></i> 4 Rooms
                             </p>
@@ -229,7 +238,7 @@
                             </p>
                         </div>
 
-                        <div>
+                        <div id="residence-action" class="residence-action">
                             <button id="btn" class="btn">Sign Up</button>
 
                             <p>
@@ -243,10 +252,10 @@
                         <img src="./assets/img/Group 2.png" alt="First House">
                     </div>
 
-                    <div>
+                    <div id="residence-details" class="residence-details">
                         <h4><i class="ri-map-pin-2-fill"></i> Beverly Hills, California</h4>
 
-                        <div>
+                        <div id="residence-info" class="residence-info">
                             <p>
                                 <i class="ri-hotel-bed-line"></i> 3 Rooms
                             </p>
@@ -256,7 +265,7 @@
                             </p>
                         </div>
 
-                        <div>
+                        <div id="residence-action" class="residence-action">
                             <button id="btn" class="btn">Sign Up</button>
 
                             <p>
@@ -270,10 +279,10 @@
                         <img src="./assets/img/Group 3.png" alt="First House">
                     </div>
 
-                    <div>
+                    <div id="residence-details" class="residence-details">
                         <h4><i class="ri-map-pin-2-fill"></i> Palo Alto, California</h4>
 
-                        <div>
+                        <div id="residence-info" class="residence-info">
                             <p>
                                 <i class="ri-hotel-bed-line"></i> 6 Rooms
                             </p>
@@ -283,7 +292,7 @@
                             </p>
                         </div>
 
-                        <div>
+                        <div id="residence-action" class="residence-action">
                             <button id="btn" class="btn">Sign Up</button>
 
                             <p>
@@ -296,144 +305,150 @@
             </div>
 
         </section>
+        
 
-        <section id="testemuniuls-section" class="testemuniuls-section">
+        <!-- ==================== Seção Testemunhos ==================== -->
+        <section id="testimonials-section" class="testimonials-section">
 
-            <h2>What People Say About Dwello</h2>
+            <h2>What People Say <br /> About Dwello</h2>
 
-            <div>
+            <div id="testimonials" class="testimonials">
 
-                <div>
-                    <img src="assets/img/Mask 1.png" alt="">
+                <div id="testemunial" class="testemunial">
+                    <div id="testemunial-img" class="testemunial-img">
+                        <img src="assets/img/Mask 1.png" alt="">
+                    </div>
+                    <div id="testemunial-content" class="testemunial-content">
+                        <div id="first-group">
+                            <div id="testemunial-person-group" class="testemunial-person-group">
+                                <div id="testemunial-person" class="testemunial-person">
+                                    <img src="assets/img/Person 3.png" alt="">
+                                </div>
+                                <div>
+                                    <h5>Sarah Nguyen</h5>
+                                    <p>San Francisco</p>
+                                </div>
+                            </div>
+                            <div id="testemunial-rating" class="testemunial-rating">
+                                <i class="ri-star-fill"></i>
+                                <span>5.0</span>
+                            </div>
+                        </div>
+                        <div>
+                            <p>
+                                Dwello truly cares about their clients.
+                                They listened to my needs and
+                                preferences and helped me find the
+                                perfect home in the Bay Area. Their
+                                professionalism and attention to detail
+                                are unmatched.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-
-                <div>
-
-                    <div>
-                        <div>
-                            <div>
-                                <img src="assets/img/Person 3.png" alt="">
+                <div id="testemunial" class="testemunial">
+                    <div id="testemunial-img" class="testemunial-img">
+                        <img src="assets/img/Mask 1.png" alt="">
+                    </div>
+                    <div id="testemunial-content" class="testemunial-content">
+                        <div id="first-group">
+                            <div id="testemunial-person-group" class="testemunial-person-group">
+                                <div id="testemunial-person" class="testemunial-person">
+                                    <img src="assets/img/Person 3.png" alt="">
+                                </div>
+                                <div>
+                                    <h5>Sarah Nguyen</h5>
+                                    <p>San Francisco</p>
+                                </div>
                             </div>
-                            <div>
-                                <h5>Sarah Nguyen</h5>
-                                <p>San Francisco</p>
+                            <div id="testemunial-rating" class="testemunial-rating">
+                                <i class="ri-star-fill"></i>
+                                <span>5.0</span>
                             </div>
                         </div>
                         <div>
-                            <i class="ri-star-fill"></i>
-                            <span>5.0</span>
+                            <p>
+                                Dwello truly cares about their clients.
+                                They listened to my needs and
+                                preferences and helped me find the
+                                perfect home in the Bay Area. Their
+                                professionalism and attention to detail
+                                are unmatched.
+                            </p>
                         </div>
                     </div>
-
-                    <div>
-                        <p>
-                            Dwello truly cares about their clients.
-                            They listened to my needs and
-                            preferences and helped me find the
-                            perfect home in the Bay Area. Their
-                            professionalism and attention to detail
-                            are unmatched.
-                        </p>
-                    </div>
-
                 </div>
-                <div>
-
-                    <div>
-                        <div>
-                            <div>
-                                <img src="assets/img/Person 1.png" alt="">
-                            </div>
-                            <div>
-                                <h5>Michael Rodriguez</h5>
-                                <p>San Diego</p>
-                            </div>
-                        </div>
-                        <div>
-                            <i class="ri-star-fill"></i>
-                            <span>4.5</span>
-                        </div>
+                <div id="testemunial" class="testemunial">
+                    <div id="testemunial-img" class="testemunial-img">
+                        <img src="assets/img/Mask 1.png" alt="">
                     </div>
-
-                    <div>
-                        <p>
-                            I had a fantastic experience working
-                            with Dwello. Their expertise and
-                            personalized service exceeded my
-                            expectations. I found my dream home
-                            quickly and smoothly. Highly
-                            recommended!
-                        </p>
-                    </div>
-
-                </div>
-                <div>
-
-                    <div>
-                        <div>
-                            <div>
-                                <img src="assets/img/Person 2.png" alt="">
+                    <div id="testemunial-content" class="testemunial-content">
+                        <div id="first-group">
+                            <div id="testemunial-person-group" class="testemunial-person-group">
+                                <div id="testemunial-person" class="testemunial-person">
+                                    <img src="assets/img/Person 3.png" alt="">
+                                </div>
+                                <div>
+                                    <h5>Sarah Nguyen</h5>
+                                    <p>San Francisco</p>
+                                </div>
                             </div>
-                            <div>
-                                <h5>Emily Johnson</h5>
-                                <p>Los Angeles</p>
+                            <div id="testemunial-rating" class="testemunial-rating">
+                                <i class="ri-star-fill"></i>
+                                <span>5.0</span>
                             </div>
                         </div>
                         <div>
-                            <i class="ri-star-fill"></i>
-                            <span>5.0</span>
+                            <p>
+                                Dwello truly cares about their clients.
+                                They listened to my needs and
+                                preferences and helped me find the
+                                perfect home in the Bay Area. Their
+                                professionalism and attention to detail
+                                are unmatched.
+                            </p>
                         </div>
                     </div>
-
-                    <div>
-                        <p>
-                            Dwello made my dream of owning a
-                            home a reality! Their team provided
-                            exceptional support and guided me
-                            through every step of the process. I
-                            couldn t be happier with my new home!
-                        </p>
-                    </div>
-
                 </div>
 
             </div>
 
-            <div>
+            <div id="testimonials-arrows" class="testimonials-arrows">
 
-                <i class="ri-arrow-left-s-line"></i>
-                <i class="ri-arrow-right-s-line"></i>
+                <button id="btn" class="btn"><i class="ri-arrow-left-s-line"></i></button>
+                <button id="btn" class="btn"><i class="ri-arrow-right-s-line"></i></button>
 
             </div>
 
         </section>
 
-        <section id="qa" class="qa">
+        <!-- ==================== Seção Perguntas Frequentes ==================== -->
+        <section id="qa-section" class="qa-section">
 
             <div>
                 <h2>Do You Have Any Questions? <br /> Get Help From Us</h2>
             </div>
-            <div>
-                <p><i class="ri-check-fill"></i> Chat live with our support team</p>
-                <p><i class="ri-check-fill"></i> Browse our FAQ</p>
-            </div>
-            <form>
-                <label>
+            <ul id="qa-content" class="qa-content">
+                <li><i class="ri-check-fill"></i> Chat live with our support team</li>
+                <li><i class="ri-check-fill"></i> Browse our FAQ</li>
+            </ul>
+            <form class="qa-form" novalidate>
+                <label for="email" class="qa-input-wrapper">
                     <i class="ri-mail-fill"></i>
-                    <input type="text" placeholder="Enter your email address" />
+                    <input type="text" id="email" placeholder="Enter your email address" />
                 </label>
 
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Submit" id="btn" class="btn" />
             </form>
 
 
         </section>
 
     </main>
-
+    <!-- ==================== Rodapé ==================== -->
     <footer>
 
-        <div>
+        <div class="logo-group">
             <img src="assets/img/logo.png" alt="Dwello Logo">
 
             <p>
@@ -480,6 +495,7 @@
         </div>
 
     </footer>
+
 
 </body>
 
